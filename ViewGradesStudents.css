@@ -1,0 +1,51 @@
+.grades-box {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.title {
+text-align: left;
+}
+.assessment{
+    padding: 10px;
+}
+.grade{
+
+}
+.table-title {
+    border-bottom: 1px dashed black;
+    padding: 10px;
+}
+.table-title {
+    font-weight: bolder;
+    font-size: larger;
+    background-color: whitesmoke;
+}
+.table-data {
+border-left-style: double;
+}
+.table-data:hover{
+    font-weight: bolder;
+    font-size: larger;
+    background-color: whitesmoke;
+}
+.my-grades-box {
+
+}
+.information {
+border-radius: 25px;
+border: 1px solid black;
+padding: 10px;
+}
+
+.their-grades-box {
+
+}
+.table {
+    border: 1px solid black;
+    text-align: left;
+    border-collapse: collapse;
+    align-self: auto;
+
+}
+table:hover {
+    background-color: white;
+}

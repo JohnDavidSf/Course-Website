@@ -1,0 +1,78 @@
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+
+.content-container{
+    height: 300px;
+}
+
+.graph-container{
+    position: absolute;
+    top: 150px;
+    right: 30%;
+    border: 3px solid #d0d0d0;
+    z-index: 9;
+}
+.table-container{
+  position: absolute;
+  top: 150px;
+  right: 30%;
+  border: none;
+  z-index: 9;
+}
+
+.bt-submit{
+	 background-color:rgb(233, 239, 250);
+    color: black;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    height: 30%;
+    opacity: 0.8;
+}
+
+.bt-submit:hover{
+	opacity: 8;
+}
+
+.uploadForm input[type=submit]{
+    background-color:rgb(233, 239, 250);
+    color: black;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.8;
+  }
+
+.uploadForm input[type=submit]:hover{
+    opacity: 8;
+  }
+
+.AddForm input[type=text]{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+
+.AddForm input[type=submit]{
+    background-color:rgb(233, 239, 250);
+    color: black;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.8;
+  }
+  .AddForm input[type=submit]:hover{
+    opacity: 8;
+  }

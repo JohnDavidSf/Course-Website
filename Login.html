@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Login-SOEN287</title>
+		<link rel="stylesheet" href="loginstyles.css">
+	</head>
+	<body class="login-background">
+		<div class="login-box">
+			
+			<h1 class="login-title">SOEN 287</h1>
+
+			<form action="authentication.php" method="post">
+
+				<div class="user-box">
+					<input type="radio" name="user_type" id="teacher" value="teacher" checked>
+					<label for="teacher">teacher</label>
+
+					<input type="radio" name="user_type" id="student" value="student">
+					<label for="student">student</label>
+
+				</div>
+				
+				<div class="info-box">
+					<input type="text" name="user-id" id="user-id" placeholder="User ID" required><br>
+
+					<input type="password" name="password" id="password" placeholder="Password" required>
+
+				</div>
+				
+				<div class="login-button">
+					<input type="submit" value="Log In" id="loginButton">
+				</div>
+				<!-- <div><a href="register.html">Sign up</a></div> -->
+			</form>
+
+			<div class="register-box">
+				<div class="register-button">
+					<button><a href="register.html">Request New Account</a></button>
+
+				</div>
+
+			</div>
+			
+		</div>
+		
+	</body>
+	<footer class="login-footer">
+		<div>
+			SOEN 287&emsp;&emsp;Fall 2022
+			<a href = "https://www.concordia.ca">
+			<img src = "cu_logo.png" class="link-image"
+				alt = "Concordia University Logo">
+			</a>
+		</div>
+		
+	</footer>
+</html>

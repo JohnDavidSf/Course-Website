@@ -1,0 +1,44 @@
+.grade-management-box{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+}
+.title {
+    text-align: left;
+}
+th{
+    border-bottom: 1px dashed black;
+    border-left: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: whitesmoke;
+
+}
+table {
+    border: 1px solid black;
+    text-align: left;
+    border-collapse: collapse;
+    border-left: solid black;
+    width:80%;
+    align-self: auto;
+
+
+}
+td {
+border-top: rgb(244, 240, 236);
+border-bottom: rgb(244, 240, 236); 
+border-left: 1px solid black;
+}
+
+td:hover {
+    font-weight: bolder;
+    font-size: larger;
+    background-color: white;
+}
+
+.assessment {
+}
+.assessment:visited{
+}
+

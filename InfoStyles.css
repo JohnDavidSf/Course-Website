@@ -1,0 +1,74 @@
+/* Styles for Course Info page */
+
+
+.sidemenu {
+    height: 100%;
+    width: 130px;
+    float: left;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    position: sticky;
+  }
+  
+  .sidemenu a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+  }
+  
+  .sidemenu a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .sidemenu a:hover {
+    color: #932439;
+  }
+  
+  .bodytitle {
+    margin-left: 160px; 
+    font-weight: bold;
+    font-size: 20px; 
+    color:  #932439;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .bodytext {
+    margin-left: 160px; 
+    font-size: 16px; 
+    padding: 0px 10px;
+  }
+  
+  .bodytext a:link{
+    color: #2439A4;
+  }
+
+  .bodytext a:visited{
+    color:#FE7B12; 
+  }
+
+
+  #courseSchedule{
+    border-collapse: collapse;
+  }
+  #courseSchedule th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background: #B2C8FB;
+  }
+  #courseSchedule td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+ 

@@ -1,0 +1,138 @@
+.titlelogo{
+    display: block;
+    height: 50px;
+    margin: 0px 25px 0px 0px;
+    padding: 5px 0px 10px;
+    width: 200px;
+}
+
+.logout{
+    position: relative;
+    right: 10px;
+    top: 5px;
+    text-align: center;
+    display: block;
+    padding: 2px 5px;
+    align-items: right;
+    float: right;
+    border-left:2px solid #bbb;
+}
+.logout a:link{
+    text-decoration: none;
+    color: black;
+}
+.logout a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.logout a:hover{
+    color:  #bbb;
+}
+
+.profile{
+    position: relative;
+    right: 10px;
+    top: 5px;
+    text-align: center;
+    display: block;
+    padding: 2px 5px;
+    align-items: right;
+    float: right;
+    border-left:2px solid #bbb;
+}
+.profile a:link{
+    text-decoration: none;
+    color: black;
+}
+.profile a:visited{
+    text-decoration: none;
+    color: black;
+}
+.profile a:hover{
+    color:  #bbb;
+}
+
+.nav{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif, Arial, Helvetica;
+    letter-spacing: 0.6px;
+    background-color: rgb(231, 232, 233);
+}
+
+.navright{
+    display: flex;
+    margin-right: auto;
+    width: 100%;
+}
+
+.navitem{
+   font-size: 20px;
+   padding: 14px 16px;
+   display:block;
+   float:left;
+   color: black;
+}
+.navitem:hover{
+    background-color: #B2C8FB;
+}
+.navitem a:link{
+    text-decoration: none;
+    color: black;
+}
+.navitem a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+
+.bg-container{
+    background: url(keyboards.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+.bd-container{
+    height: 80px;
+}
+.text-center{
+    text-align: center;
+    padding: 70px 0;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    height: 260px;
+}
+.text-center h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30pt;
+}
+.text-center p{
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.ft{
+    height: 30px;
+    border-top: 10px outset #B2C8FB;
+    display: flex;
+    align-items: justify;
+}
+
+.footleft{
+    display: flex;
+    margin-right: auto;
+    margin-left: 15px;
+    margin-top: 3px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.content-container{
+    height: 300px;
+}
+
